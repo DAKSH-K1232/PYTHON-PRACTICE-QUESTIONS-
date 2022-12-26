@@ -1,0 +1,8 @@
+a=str(input("Your STRING:"))
+b=str(input("SINGLE letter"))
+count=0
+for i in range(len(a)):
+    if a[i]==b:
+        count+=1
+c=count/len(a)
+print("required percentage:",c*100)
